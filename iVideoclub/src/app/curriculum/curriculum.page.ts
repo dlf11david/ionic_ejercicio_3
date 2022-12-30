@@ -12,4 +12,8 @@ export class CurriculumPage implements OnInit {
   ngOnInit() {
   }
 
+  ionViewDidEnter() {
+    console.log('ionViewDidEnter CurriculumPage');
+  }
+
 }

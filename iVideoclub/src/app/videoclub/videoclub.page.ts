@@ -12,4 +12,8 @@ export class VideoclubPage implements OnInit {
   ngOnInit() {
   }
 
+  ionViewDidEnter() {
+    console.log('ionViewDidEnter VideoclubPage');
+  }
+
 }

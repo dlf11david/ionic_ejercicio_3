@@ -16,4 +16,8 @@ export class DetallePage implements OnInit {
     this.id = this.activatedRoute.snapshot.paramMap.get('id');
   }
 
+  ionViewDidEnter() {
+    console.log('ionViewDidEnter DetallePage');
+  }
+
 }

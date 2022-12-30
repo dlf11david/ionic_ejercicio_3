@@ -12,4 +12,8 @@ export class AutorPage implements OnInit {
   ngOnInit() {
   }
 
+  ionViewDidEnter() {
+    console.log('ionViewDidEnter AutorPage');
+  }
+
 }
