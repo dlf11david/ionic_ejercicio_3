@@ -8,12 +8,11 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DetallePage implements OnInit {
 
-  id: any;
-
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    this.id = this.activatedRoute.snapshot.paramMap.get('id');
+    const id = this.activatedRoute.snapshot.paramMap.get('id');
+    console.log(id)
   }
 
   ionViewDidEnter() {
